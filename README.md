@@ -1,18 +1,67 @@
-## Getting Started
+<div align="center">
+  <img src="banner.png" width="100%">
+</div>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+JDBC Example – Java + MySQL
 
-## Folder Structure
+![Java](https://img.shields.io/badge/Java-21-orange)
+![MySQL](https://img.shields.io/badge/Database-MySQL-blue)
+![IDE](https://img.shields.io/badge/Editor-VS%20Code-purple)
 
-The workspace contains two folders by default, where:
+A beginner-friendly JDBC project demonstrating how to connect Java with MySQL, run SQL queries, and process results.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+📌 Steps I Followed to Build My First JDBC Project
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Below are the seven steps I personally used to build this project from scratch:
 
-## Dependency Management
+1. Step 1: Import the packages  
+2. Step 2: Load and Register drive
+3. Step 3: Establish connection
+4. Step 4: create statement
+5. Step 5: execute query
+6. Step 6: process the result
+7. Step 7: close the connection
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+📁 Project Structure
+
+```
+jdbc_example/
+│  README.md
+│  .gitattributes
+│  banner.png
+│
+├── src/
+│    └── App.java
+├── lib/
+│    └── mysql-connector.jar
+├── bin/   (auto-generated)
+└── .vscode/
+```
+
+---
+
+🚀 How to Run
+
+```
+javac -cp lib/mysql-connector.jar src/App.java
+java -cp lib/mysql-connector.jar;src App
+```
+
+---
+
+📸 Screenshots
+
+  <img src="sql_table.png" alt="table" width="100%">
+   <img src="output.png" alt="output" width="100%">
+
+
+---
+ 🔮 Future Enhancements
+
+- PreparedStatement examples  
+- CRUD operations  
+- Properties file for DB credentials  
