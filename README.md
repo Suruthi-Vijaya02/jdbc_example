@@ -64,21 +64,23 @@ enrollment
 
 
 🛠 Project Folder Structure
+
 src/
  ├── main/
  │    └── main.java
  ├── dao/
  │    ├── studentDAO.java
+ │    ├── teacherDAO.java
  │    ├── courseDAO.java
  │    └── enrollmentDAO.java
  ├── util/
  │    └── dbConnection.java
  ├── model/
  │    ├── student.java
- |    ├── department.java
  │    ├── teacher.java
  │    ├── course.java
  │    └── enrollment.java
+
 
 🚀 How to Run the Project
 1️⃣ Install & Start MySQL Server
@@ -103,7 +105,7 @@ java main.main
 📸 Project Output Screenshots
 
 📝 Insert Student Output
-![Insert Student](IMAGES/insert_stu.png)
+![Insert Student](images/insert_stu.png)
 
 📘 Insert Course Output
 ![Insert Course](images/insert_course.png)
