@@ -1,5 +1,7 @@
 📘 Student Management System – JDBC + MySQL Project
 <p align="center"> <img src="banner2.png" alt="Project Banner" width="100%" /> </p> <p align="center"> <img src="https://img.shields.io/badge/Java-17+-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/MySQL-8.0-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/JDBC-Database%20Connectivity-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" /> </p>
+
+__________________________________________________________________________________
 📂 Project Overview
 
 The Student Management System is a Java-based console application that demonstrates:
@@ -16,6 +18,8 @@ MySQL Relational Schema
 
 This project manages students, departments, teachers, courses, and enrollments using a normalized relational database.
 
+__________________________________________________________________________________
+
 🧱 Tech Stack
 
 | Layer        | Technology                            |
@@ -27,7 +31,10 @@ This project manages students, departments, teachers, courses, and enrollments u
 | Tools Used   | IntelliJ / VS Code / Eclipse          |
 
 
+__________________________________________________________________________________
+
 📑 Features Implemented
+
 ✔ Student Operations
 
 Insert Student
@@ -49,6 +56,7 @@ Add Enrollment
 
 Validates FK constraints
 
+__________________________________________________________________________________
 
 🧩 Database Tables Created
 
@@ -62,27 +70,18 @@ course
 
 enrollment
 
+__________________________________________________________________________________
 
-🛠 Project Folder Structure
 
-src/
- ├── main/
- │    └── main.java
- ├── dao/
- │    ├── studentDAO.java
- │    ├── teacherDAO.java
- │    ├── courseDAO.java
- │    └── enrollmentDAO.java
- ├── util/
- │    └── dbConnection.java
- ├── model/
- │    ├── student.java
- │    ├── teacher.java
- │    ├── course.java
- │    └── enrollment.java
+🛠 Project Folder Structure:
 
+ ![project folder structure](images/struct.png)
+
+
+__________________________________________________________________________________
 
 🚀 How to Run the Project
+
 1️⃣ Install & Start MySQL Server
 
 Create a database:
@@ -102,6 +101,8 @@ private static final String password = "YOUR_PASSWORD";
 javac main/main.java
 java main.main
 
+__________________________________________________________________________________
+
 📸 Project Output Screenshots
 
 📝 Insert Student Output
@@ -112,6 +113,8 @@ java main.main
 
 📚 Insert Enrollment Output
 ![Insert Enrollment](images/insert_enroll.png)
+
+__________________________________________________________________________________
 
 📦 Sample Data Inserted
 student
@@ -156,6 +159,8 @@ Enrollments
 | 104        | 236       | 2026-01-31  | B     |
 
 
+__________________________________________________________________________________
+
 ⚙ Architecture
 📌 DAO Pattern Used
 
@@ -171,6 +176,9 @@ getAll()
 
 This ensures clean separation between database logic and business logic.
 
+__________________________________________________________________________________
+
+
 ✔ Conclusion
 
 This project demonstrates complete JDBC + MySQL integration with a properly normalized relational schema and full CRUD operations for all entities.
@@ -182,5 +190,8 @@ GUI using JavaFX / Swing
 Authentication System
 
 REST API (Spring Boot)
+
+
+________________________________________________________________________
 
 ⭐ If you like this project, don’t forget to star the repository!
